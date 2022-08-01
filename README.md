@@ -1,1 +1,1 @@
-https://app.patika.dev/my-courses
+https://app.patika.dev/rabiatp
