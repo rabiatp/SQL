@@ -55,3 +55,17 @@ GROUP BY <sütun_adı>, <sütun_adı>, ..
 FROM film
 GROUP BY rental_rate
 HAVING COUNT(*) > 325;
+
+## JOIN 
+- BİRLEŞTİRME
+
+### INNER JOIN
+- INNER JOIN yapısı sayesinde birbiriyle ilişkili olan tabloların birbiriyle eşleşen (kesişen) verilerini sıralayabiliriz.
+- SELECT book.title, author.first_name, author.last_name
+FROM book
+JOIN author ON author.id = book.author_id;
+- SÖZ DİZİMİ:
+- SELECT <sütun_adı>, <sütun_adı> ...
+FROM <tablo1_adı>
+INNER JOIN <tablo2_adı>
+ON <tablo1_adı>.<sütun_adı> = <tablo2_adı>.<sütun_adı>;
